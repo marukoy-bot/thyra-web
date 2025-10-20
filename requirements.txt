@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+tensorflow #replace with 'tensorflow-macos' on MAC 
+pillow
+jinja2

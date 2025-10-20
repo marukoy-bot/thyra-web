@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THYRA</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/script.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Product+Sans&display=swap" rel="stylesheet">
+</head>
+
+<div id="theme-toggle">
+  <label class="switch">
+  <input type="checkbox" id="theme-checkbox" />
+  <span class="slider">
+    <span class="icon">
+      <img id="themeIcon" src="/static/icons/light_mode.svg" alt="Theme Icon" />
+    </span>
+  </span>
+</label>
+</div>
+
+<body>
+  <h1 id="title">
+  <img src="/static/logo.svg" alt="Logo" style="height: 200px; margin-top: 0px; margin-bottom: -25px;">
+</h1>
+
+  <div id="drop-area">
+    <p>📥 Drag & Drop Image Here</p>
+    <p>or</p>
+    <label class="custom-file-upload">
+      📁 Browse
+      <input type="file" id="fileElem" accept="image/*" />
+    </label>
+  </div>
+
+  <button onclick="predict()">🔍 Predict</button>
+
+<div id="output"></div>
+    <p><strong>Selected File:</strong> <span id="filename">None</span></p>
+    <p><strong>Prediction:</strong> <span id="result">N/A</span></p>
+</div>
+</body>
+</html>
