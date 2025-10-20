@@ -1,13 +1,13 @@
 # Thyra Web
-a web version of [this program](https://github.com/marukoy-bot/Thyroid-Tumor-Binary-Classification-using-Machine-Learning), mainly for cross-platform compatibility
+a web version of [this program](https://github.com/marukoy-bot/Thyroid-Tumor-Binary-Classification-using-Machine-Learning), mainly for cross-platform compatibility.
 
 # Prerequisites
-- Python 3.11.9 (somehow it doesn't work on versions 3.12+)
+- Python 3.11.9 (somehow it doesn't work on versions 3.12+).
 
 # Setting up
-1. Create a folder to store the files, name it somethig like `thyra-web`
-2. In this repo, click the `<> Code` button above and Download the `.zip` file
-3. Extract the files of the `.zip` file inside the `thyra-web` folder. The file tree view should look something like this
+1. Create a folder to store the files, name it somethig like `thyra-web`.
+2. In this repo, click the `<> Code` button above and Download the `.zip` file.
+3. Extract the files of the `.zip` file inside the `thyra-web` folder. The file tree view should look something like this.
 <pre>
 thyra-web
 │   main.py
@@ -33,15 +33,21 @@ thyra-web
         main.cpython-311.pyc
 </pre>
 # Running the program
-1. Open a terminal in the `thyra-web` folder you created
-2. Run the `start_server.py` script
-   - Windows: `python start_server.py`
-   - macOS: `python3.11 start_server.py`
-4. Wait a bit. After it finishes setting up, your browser should automatically open with the THYRA website
+1. Open a terminal in the `thyra-web` folder you created.
+2. Run the `start_server.py` script.
+   - Windows: `python start_server.py`.
+   - macOS: `python3.11 start_server.py`.
+4. Wait a bit. After it finishes setting up, your browser should automatically open with the THYRA website.
 
 # Operation
 1. Get the thyroid ultrasound image.
 2. You can:
-   - Drag the image in the box
-   - Click `📁 Browse` and search for the image
-3. Click `🔍 Predict` button
+   - Drag the image in the box.
+   - Click `📁 Browse` and search for the image.
+3. Click `🔍 Predict` button.
+
+# Features
+1.  Also works on mobile as long as these prerequisites are met:
+    - laptop hosting the thyra website and mobile devide MUST be connected to the same WiFi network.
+    - laptop can provide a mobile hotspot and the mobile device must be connected to it.
+- Copy the thyra web URL into the browser on the mobile device 
